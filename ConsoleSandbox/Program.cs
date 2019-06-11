@@ -6,7 +6,7 @@ namespace ConsoleSandbox
     {
         static void Main(string[] args)
         {
-            Message Test = new Message(" hello out there");
+            Message Test = new Message("Hello out there");
             Test.Terminate();
         }
     }
