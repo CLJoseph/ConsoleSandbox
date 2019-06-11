@@ -6,7 +6,8 @@ namespace ConsoleSandbox
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            Message Test = new Message(" hello out there");
+            Test.Terminate();
         }
     }
 }
