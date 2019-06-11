@@ -4,8 +4,6 @@ using System.Text;
 
 namespace ConsoleSandbox
 {
-    // put in comments
-    
     class Message
     {
         public Message(string message)
