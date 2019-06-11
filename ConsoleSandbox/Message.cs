@@ -6,6 +6,8 @@ namespace ConsoleSandbox
 {
     class Message
     {
+        public string Filename { get; set; }
+
         public Message(string message)
         {
             Console.WriteLine(message);
@@ -18,5 +20,19 @@ namespace ConsoleSandbox
             Console.WriteLine("Done, press any key to terminate");
             Console.ReadKey();
         }
+
+        public void getFileName()
+        {
+            Console.Write(" Enter Filename :");  
+            Filename =  Console.ReadLine();
+        }
+
+        public void FileNameIs()
+        {
+            Console.WriteLine("File name is :"+ Filename);
+
+        }        
+
+
     }
 }
