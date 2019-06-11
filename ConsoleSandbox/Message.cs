@@ -18,12 +18,5 @@ namespace ConsoleSandbox
             Console.WriteLine("Done, press any key to terminate");
             Console.ReadKey();
         }
-
-
-
-
-
-
-
     }
 }
