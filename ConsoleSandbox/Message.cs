@@ -23,14 +23,13 @@ namespace ConsoleSandbox
 
         public void getFileName()
         {
-            Console.Write(" Enter Filename :");  
-            Filename =  Console.ReadLine();
+            Console.Write(" Enter Filename (nb .txt extension added automatically) :");  
+            Filename =  Console.ReadLine() + ".txt";
         }
 
         public void FileNameIs()
         {
             Console.WriteLine("File name is :"+ Filename);
-
         }        
 
 
